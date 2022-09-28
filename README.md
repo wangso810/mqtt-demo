@@ -8,7 +8,7 @@
 
 根据Spring官网介绍实现MQTT的支持, 详见 [MQTT Support](https://docs.spring.io/spring-integration/docs/5.4.13/reference/html/mqtt.html#mqtt)
 
-## branch master
+## branch main
 
 - 启动两个应用，在RabbitMQ管理界面看到两个客户端的连接信息
 - 发布信息接口
