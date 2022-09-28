@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: provider
+
+#MQTT配置信息
+mqtt:
+  #MQTT服务端地址，端口默认为1883，如果有多个，用逗号隔开
+  uris:
+    - tcp://127.0.0.1:1883
+  clientId: provider-id
+  topics:
+    - demo
+    - test
+  #用户名
+  username: guest
+  #密码
+  password: guest
+  timeout: 30
+  keepalive: 60
+  qos: 1
+

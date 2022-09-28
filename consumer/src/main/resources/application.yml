@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: consumer
+
+#MQTT配置信息
+mqtt:
+  #MQTT服务端地址，端口默认为11883，如果有多个，用逗号隔开
+  uris:
+    - tcp://127.0.0.1:1883
+  clientId: consumer-id
+  topics:
+    - demo
+    - test
+  #用户名
+  username: guest
+  #密码
+  password: guest
+  timeout: 30
+  keepalive: 60
+  qos: 1
+
