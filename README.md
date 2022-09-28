@@ -6,7 +6,7 @@
 
 ## branch demo_v2 
 
-根据Spring官网介绍实现MQTT的支持, 详见 [MQTT Support](https://docs.spring.io/spring-integration/docs/5.4.13/reference/html/mqtt.html#mqtt)
+根据Spring官网介绍实现MQTT的支持, 详见[MQTT Support](https://docs.spring.io/spring-integration/docs/5.4.13/reference/html/mqtt.html#mqtt)
 
 ## branch main
 
